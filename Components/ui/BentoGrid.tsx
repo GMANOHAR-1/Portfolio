@@ -1,9 +1,14 @@
-import React from 'react';
+'use client'
+
+import React, { useState } from 'react';
 import { cn } from "@/utils/cn";
 import { BackgroundGradientAnimation } from './GradientBg';
 import { Globe } from './Globe';
 import { GlobeDemo } from './GridGlobe';
-
+import Lottie from 'react-lottie';
+import animationData from '@/data/confetti.json';
+import MaginButton from './MaginButton';
+import { IoCopyOutline } from 'react-icons/io5';
 export const BentoGrid = ({
   className,
   children,
@@ -42,6 +47,12 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
+
+  const [copied,setCopied] = useState(false);
+  const handlecopy = () => {
+    navigator.clipboard.writeText('manohar.g21@iiits.in');
+    setCopied(true);
+  }
   return (
     <div
       className={cn(
@@ -135,17 +146,17 @@ export const BentoGridItem = ({
                 className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"
                   }`}
               > */}
-                {/* <img src="/confetti.gif" alt="confetti" /> */}
+                <img src="/confetti.gif" alt="confetti" />
                 {/* <Lottie options={defaultOptions} height={200} width={400} /> */}
               {/* </div> */}
 
-              {/* <MagicButton
+              <MaginButton
                 title={copied ? "Email is Copied!" : "Copy my email address"}
                 icon={<IoCopyOutline />}
                 position="left"
-                handleClick={handleCopy}
+                handleClick={handlecopy}
                 otherClasses="!bg-[#161A31]"
-              /> */}
+              />
             </div>
           )}
 
