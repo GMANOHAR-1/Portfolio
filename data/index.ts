@@ -18,7 +18,7 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "I'm very flexible with time zone communications",
+      title: "Connecting the World with Web Applications",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
@@ -49,7 +49,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
+      title: "Currently Working on Mern Stack,Machine Learning and Devops",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,12 +72,12 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      title: "Genesis Insurance Company",
+      des: "Explore the things around Insurance and its Importance.",
+      img: "/genesis.png",
+      iconLists: ["/re.svg", "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg", "/node.svg", "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg"],
       link: "https://github.com/adrianhajdin?tab=repositories",
-    },
+    }, 
     {
       id: 2,
       title: "Yoom - Video Conferencing App",
