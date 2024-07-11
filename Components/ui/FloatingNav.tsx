@@ -7,7 +7,7 @@ import {
   useScroll,
   useMotionValueEvent,
 } from "framer-motion";
-import { cn } from "@/utils/cn";
+import { cn } from "@/libs/utils";
 import Link from "next/link";
 
 const NodeJsIcon = () => (
