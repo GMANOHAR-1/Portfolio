@@ -48,7 +48,7 @@ export const BentoGridItem: React.FC<BentoGridItemProps> = ({
   titleClassName,
   spareImg,
 }) => {
-  const leftLists = useMemo(() => ["ReactJS", "Express", "Javascript"], []);
+  const leftLists = useMemo(() => ["Javascript", "Express", "ReactJS"], []);
   const rightLists = useMemo(() => ["Nodejs", "MongoDB", "GraphQL"], []);
 
   const [copied, setCopied] = useState(false);
@@ -63,7 +63,7 @@ export const BentoGridItem: React.FC<BentoGridItemProps> = ({
   };
 
   const handleCopy = () => {
-    const text = "hsu@jsmastery.pro";
+    const text = "gmanohariiits@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
   };
@@ -116,8 +116,11 @@ export const BentoGridItem: React.FC<BentoGridItemProps> = ({
             {title}
           </div>
           {id === 2 && (
+              <div className="h-32">
+                  <GlobeDemo />
+                </div>
+
             
-              <GlobeDemo />
             
           )}
           {id === 3 && (

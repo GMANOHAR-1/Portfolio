@@ -81,7 +81,7 @@ export const FloatingNav = ({
           </Link>
         ))}
         <a
-          href="https://drive.google.com/your-resume-link" // Replace with your actual resume link
+          href="https://drive.google.com/file/d/1R8QUxxOEGPNytOppOhC0-QBGnCSgr-jX/view?usp=sharingk" // Replace with your actual resume link
           target="_blank"
           rel="noopener noreferrer"
           className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full font-bold"

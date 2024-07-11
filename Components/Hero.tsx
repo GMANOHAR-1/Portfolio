@@ -3,6 +3,7 @@ import { Spotlight } from './ui/Spotlight';
 import { TextGenerateEffect } from './ui/TextGenerateEffect';
 import MaginButton from './ui/MaginButton';
 import { FaLocationArrow } from 'react-icons/fa';
+import { socialMedia } from "@/data";
 
 const Hero = () => {
   return (
@@ -40,9 +41,24 @@ const Hero = () => {
             always looking for new challenges and opportunities to learn and grow as a developer.
           </p> 
 
-          <a href="#about" className="mt-6">
+          <a href="https://drive.google.com/file/d/1R8QUxxOEGPNytOppOhC0-QBGnCSgr-jX/view?usp=sharing" className="mt-6">
             <MaginButton title="Resume" icon={<FaLocationArrow />} position="right" />
           </a>
+
+          <div className="flex items-center justify-center md:gap-3 gap-6 mt-6">
+            {socialMedia.map((info) => (
+              <a
+                key={info.id}
+                href={info.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
+              >
+                <img src={info.img} alt="icons" width={20} height={20} />
+              </a>
+            ))}
+          </div>
+
         </div>
       </div>
     </div>

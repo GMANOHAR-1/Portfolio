@@ -76,31 +76,31 @@ export const navItems = [
       des: "Explore the things around Insurance and its Importance.",
       img: "/genesis.png",
       iconLists: ["/re.svg", "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg", "/node.svg", "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      link: "https://genesis-react-1.vercel.app/",
     }, 
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      title: "Lazy Stamp Collection",
+      des: "Web 3.0 based Lazy Stamp Collection and MarketPlace.",
+      img: "/stamp.png",
+      iconLists: ["/next.svg", "/tail.svg","https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg", "https://seeklogo.com/images/E/ethers-logo-D5B86204D8-seeklogo.com.png", "/solidity.png"],
+      link: "https://stamp-collection-blockchain.vercel.app/",
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      title: "Wavelength - Invest the Skills in you",
+      des: "Social Media-based platform for job searching, idea sharing, and strategic planning",
+      img: "/socialmedia.jpg",
+      iconLists: ["/re.svg", "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg", "/node.svg", "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg"],
+      link: "https://github.com/GMANOHAR-1/Wavelength-social-media-application-",
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      title: "Dog Breed Classification",
+      des: "120 Dog Breed Claasification Using Deep Learning",
+      img: "/dogbreed.png",
+      iconLists: [ "/python.svg","/tensorflow.svg"],
+      link: "https://colab.research.google.com/drive/1tHE5qVQeiLVr8rujJ_TDwB5xyoMkp5-M?usp=sharing",
     },
   ];
   
@@ -180,7 +180,7 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Cloud Computing Lead - Connexion",
+      title: "Cloud Computing Lead - Connexion Club",
       desc: "Deployment of Machine Learning and Deep Learning Projects",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
@@ -203,15 +203,28 @@ export const navItems = [
   
   export const socialMedia = [
     {
-      id: 1,
-      img: "/git.svg",
+        id: 1,
+        img: "/git.svg",
+        link: "https://github.com/GMANOHAR-1"
     },
     {
-      id: 2,
-      img: "/twit.svg",
+        id: 2,
+        img: '/Leetcode.gif',
+        link: "https://leetcode.com/GMANOHARIIITS"
     },
     {
-      id: 3,
-      img: "/link.svg",
+         id:3,
+         img:'/codeforces.gif',
+         link: "https://codeforces.com/profile/code_chill",
     },
-  ];
+    {
+        id: 4,
+        img: "/gfg.png",
+        link: "https://www.geeksforgeeks.org/user/manumanoha3id/"
+    },
+    {
+        id: 4,
+        img: "/link.svg",
+        link: "https://www.linkedin.com/in/g-manohar-2b3a69275/"
+    }
+];
