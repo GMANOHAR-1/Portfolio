@@ -132,7 +132,7 @@ const Footer = () => {
                     </div>
                     {isSubmitted && <p className="text-purple mt-4">Message sent successfully!</p>}
                 </form>
-                <a href="mailto:contact@jsmastery.pro">
+                <a href="mailto:gmanohariiits@gmail.com">
                     <MaginButton
                         title="Let's get in touch"
                         icon={<FaLocationArrow />}
