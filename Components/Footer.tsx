@@ -4,7 +4,7 @@ import { useState } from "react";
 import emailjs from "emailjs-com";
 import { socialMedia } from "@/data";
 import MaginButton from "./ui/MaginButton";
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaEnvelope, FaLocationArrow } from "react-icons/fa6";
 
 const Footer = () => {
     const [formData, setFormData] = useState({
@@ -119,19 +119,18 @@ const Footer = () => {
                         />
                     </div>
                     <div className="flex items-center justify-between">
-                        <button
-                            type="submit"
-                            className="bg-gradient-to-r from-purple-500 to-purple-700 hover:from-purple-600 hover:to-purple-800 text-purple font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline transition duration-300 ease-in-out transform hover:scale-105"
-                            disabled={isSubmitting}
-                        >
-                            {isSubmitting ? "Sending..." : (
-                                <>
-                                    <span className="mr-2">Send Mail</span>
-                                </>
-                            )}
-                        </button>
+                    <div
+    
+    className="bg-gradient-to-r from-purple-500 to-purple-700 hover:from-purple-600 hover:to-purple-800 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline transition duration-300 ease-in-out transform hover:scale-105"
+     
+>
+    {isSubmitting ? "Sending..." : (
+        <MaginButton title="Send Mail" icon={<FaEnvelope />} position="right" />
+    )}
+</div>
+
                     </div>
-                    {isSubmitted && <p className="text-green-500 mt-4">Message sent successfully!</p>}
+                    {isSubmitted && <p className="text-purple mt-4">Message sent successfully!</p>}
                 </form>
                 <a href="mailto:contact@jsmastery.pro">
                     <MaginButton
