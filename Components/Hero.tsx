@@ -40,11 +40,10 @@ const Hero = () => {
             experience working with a variety of technologies, including React, Node.js, and MongoDB. I am
             always looking for new challenges and opportunities to learn and grow as a developer.
           </p> 
-
+          
           <a href="https://drive.google.com/file/d/1R8QUxxOEGPNytOppOhC0-QBGnCSgr-jX/view?usp=sharing" className="mt-6">
             <MaginButton title="Resume" icon={<FaLocationArrow />} position="right" />
           </a>
-
           <div className="flex items-center justify-center md:gap-3 gap-6 mt-6">
             {socialMedia.map((info) => (
               <a
@@ -59,6 +58,9 @@ const Hero = () => {
             ))}
           </div>
 
+           
+          
+         
         </div>
       </div>
     </div>

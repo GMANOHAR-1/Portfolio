@@ -228,3 +228,20 @@ export const navItems = [
         link: "https://www.linkedin.com/in/g-manohar-2b3a69275/"
     }
 ];
+
+export const educationDetails = [
+  {
+    id: 1,
+    title: "Indian Institute of Information Technology Sricity",
+    desc: "B.Tech in Computer Science Engineering, CGPA: 9.41",
+    year: "2021 – 2025",
+    thumbnail: "/exp4.svg"
+  },
+  {
+    id: 2,
+    title: "Narayana Junior College",
+    desc: "Intermediate, Percentage: 98.5%",
+    year: "2019 – 2021",
+    thumbnail: "/exp1.svg"
+  }
+];

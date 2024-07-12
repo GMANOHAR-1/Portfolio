@@ -1,4 +1,5 @@
 import Clients from "@/Components/Clients";
+import Education from "@/Components/Education";
 import Experience from "@/Components/Experience";
 import Footer from "@/Components/Footer";
 import Grid from "@/Components/Grid";
@@ -15,6 +16,7 @@ export default function Home() {
      <div className="max-w-7xl w-full">
       <FloatingNav navItems={navItems}/>
      <Hero/>
+     <Education/>
      <RecentProjects/>
      <Grid/>
      <Clients/>
