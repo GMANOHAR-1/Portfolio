@@ -41,7 +41,7 @@ const Hero = () => {
             always looking for new challenges and opportunities to learn and grow as a developer.
           </p> 
           
-          <a href="https://drive.google.com/file/d/1R8QUxxOEGPNytOppOhC0-QBGnCSgr-jX/view?usp=sharing" className="mt-6">
+          <a href="https://drive.google.com/file/d/1BjZ4Eeopt3E3StGu073kX1VpbV671Kug/view?usp=sharing" className="mt-6">
             <MaginButton title="Resume" icon={<FaLocationArrow />} position="right" />
           </a>
           <div className="flex items-center justify-center md:gap-3 gap-6 mt-6">
